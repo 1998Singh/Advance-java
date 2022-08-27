@@ -1,0 +1,35 @@
+package com.evoke.springwebboot.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.evoke.springwebboot.model.Book;
+
+public class BookService {
+
+	private static List<Book> list = new ArrayList<Book>();
+
+	static {
+
+		list.add(new Book(1, "Java For Beginners", "Dr.M.P.Vani"));
+		list.add(new Book(2, "Advance Java ", "Vijay Patil"));
+		list.add(new Book(3, "Advance Java Programming", "E.Ramaraj"));
+	}
+
+	// get All Books
+
+	public List<Book> getAllBooks() {
+		return list;
+
+	}
+
+	// get book by id
+
+	public Book getBookById() {
+		Book book = null;
+		book = list.stream().filter(e -> e.getId() == id).findFirst().get();
+		return book;
+
+	}
+
+}

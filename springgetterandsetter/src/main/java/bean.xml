@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    
+  
+<bean id="universityBean" class="com.evoke.springgetterandsetter.University">
+
+<property name="universityName" value="Chandigarh University"></property>
+<property name="totalStudent" value="250000"></property>
+<property name="noOfCourse" value="10"></property>
+
+</bean>
+
+<bean id="universityBean1" class="com.evoke.springgetterandsetter.University">
+
+<property name="universityName" value="Delhi University"></property>
+<property name="totalStudent" value="300000"></property>
+<property name="noOfCourse" value="20"></property>
+
+</bean>
+
+</beans>

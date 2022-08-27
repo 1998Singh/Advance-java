@@ -1,0 +1,28 @@
+<Configuration status="warn">
+	<Appenders>
+		<!-- Console appender configuration -->
+		<Console name="console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+		</Console>
+		<RollingFile name="LogToRollingFile"
+			fileName="logs/app.log"
+			filePattern="logs/$${date:yyyy-mm}/app-%d{MM-dd-yyyy}-%i.log.gz" >
+		<PatternLayout>
+			<Pattern>%d %p %c{1.}[%t] %m%n</Pattern>
+		</PatternLayout>
+		<Policies>
+			<TimeBasedTriggeringPolicy />
+			<SizeBasedTriggeringPolicy size="1 KB" />
+		</Policies>
+	</RollingFile>
+	</Appenders>
+	<Loggers>
+		<!-- Root logger referring to console appender -->
+		<Root level="debug">
+			<AppenderRef ref="console" />
+			<Appender-ref ref="LogToRollingFile" />
+
+		</Root>
+	</Loggers>
+</Configuration>

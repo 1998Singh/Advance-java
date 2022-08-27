@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:jdbc="http://www.springframework.org/schema/cache" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/cache http://www.springframework.org/schema/jdbc/spring-cache.xsd"> <!-- bean definitions here -->
+
+
+<bean  id="emp" class="com.evoke.spring">
+<property name="empId" value="101"/>
+<property name="name" value="singh"/>
+<property name="dep" value="java"/>
+
+</bean>
+</beans>

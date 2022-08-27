@@ -1,0 +1,41 @@
+package com.evoke.httpstatus.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.evoke.httpstatus.model.Students;
+
+public class StudentService {
+	
+  private static List<Students>	list=new ArrayList<Students>();
+  
+  static {
+	  list.add(new Students(1, "Akash Singh", "PCM"));
+	  list.add(new Students(2, "Arun Singh", "PCB"));
+	  list.add(new Students(3, "Abhit Sinha", "Automobile"));
+	  list.add(new Students(3, "Sagar kumar", "CSE"));
+  }
+  
+          // getting List of all Student
+         public List<Students> getAllStudents()
+         {
+			return list;
+        	 }
+         
+         
+             //getting student details by rollNo
+         public Students getStudentByRollno(int rollNo) {
+        	 for(Student student:Students) {
+        		 if(student.getRollNo()==rollNo) {
+        			 return student;
+        		 }
+        		 
+        		 
+        		 
+        	 }
+			
+        	 
+         }
+         
+
+}

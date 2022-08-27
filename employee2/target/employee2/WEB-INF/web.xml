@@ -1,0 +1,15 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+		<servlet-name>employee2</servlet-name>
+		<servlet-class>model.Employee2Servlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>employee2</servlet-name>
+		<url-pattern>/employee2-form</url-pattern>
+	</servlet-mapping>
+</web-app>

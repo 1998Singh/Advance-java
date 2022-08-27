@@ -1,0 +1,52 @@
+package com.evoke.springwebboot.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.evoke.springwebboot.model.Book;
+import com.evoke.springwebboot.service.BookService;
+
+@RestController
+public class BookController {
+
+	@Autowired
+	private BookService bookservice;
+
+	@GetMapping("/book")
+	public String getBook() 
+	{
+		return "This is Form Book Method ";
+	}
+
+	@GetMapping("/books")
+	public Book getBooks()
+	{
+
+		Book book = new Book();
+		book.setId(1);
+		book.setTitle("Spring FrameWork With Java");
+		book.setAuthor("B.Mohamed Ibrahim");
+		return book;
+
+	}
+
+	@GetMapping("/bookss")
+	public List<Book> getBooks2() 
+	{
+
+		return this.bookservice.getAllBooks();
+
+	}
+
+	@GetMapping("/books/{id}")
+	public Book getBookid(@PathVariable("id") int id) {
+
+		return this.bookservice.getBookById(id);
+
+	}
+
+}

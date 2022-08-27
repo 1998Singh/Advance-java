@@ -1,0 +1,12 @@
+2022-08-08 13:09:08,910 INFO m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 WARN m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 ERROR m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 INFO m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 WARN m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 ERROR m.Employee[main] This is Info msg
+2022-08-08 13:09:08,925 INFO m.Employee[main] This is Info msg
+2022-08-08 13:09:08,926 WARN m.Employee[main] This is Info msg
+2022-08-08 13:09:08,926 ERROR m.Employee[main] This is Info msg
+2022-08-08 13:09:08,926 INFO m.Employee[main] This is Info msg
+2022-08-08 13:09:08,926 WARN m.Employee[main] This is Info msg
+2022-08-08 13:09:08,926 ERROR m.Employee[main] This is Info msg
