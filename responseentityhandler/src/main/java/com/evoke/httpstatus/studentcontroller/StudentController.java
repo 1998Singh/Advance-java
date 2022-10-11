@@ -33,7 +33,7 @@ public class StudentController {
 
 	// View Student Details By id
 	@GetMapping("/students/{rollNo}")
-	public ResponseEntity<Students> getBookid(@PathVariable("rollNo") int rollNo) {
+	public ResponseEntity<Students> getStudentByrollno(@PathVariable("rollNo") int rollNo) {
 		Students student = studentService.getStudentByRollno(rollNo);
 		if (student == null) {
 			return ResponseEntity.status(HttpStatus.NOT_FOUND).build();

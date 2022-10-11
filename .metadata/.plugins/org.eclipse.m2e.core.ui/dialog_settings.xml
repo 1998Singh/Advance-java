@@ -39,10 +39,15 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.evoke.hibernatemapping"/>
+			<item value="com.evoke.hibernate"/>
 		</list>
 		<list key="groupId">
+			<item value="com.evoke"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernatemapping"/>
+			<item value="hibernate"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -58,12 +63,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.evoke"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="constructorspring"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

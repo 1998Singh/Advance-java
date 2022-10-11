@@ -20,24 +20,24 @@ public class BookController {
 	@Autowired
 	private BookService bookservice;
 
-	@GetMapping("/book")
-	public String getBook() {
-		return "This is Form Book Method ";
-	}
+//	@GetMapping("/book")
+//	public String getBook() {
+//		return "This is Form Book Method ";
+//	}
 
-	@GetMapping("/books")
-	public Book getBooks() {
-
-		Book book = new Book();
-		book.setId(1);
-		book.setTitle("Spring FrameWork With Java");
-		book.setAuthor("B.Mohamed Ibrahim");
-		return book;
-
-	}
+//	@GetMapping("/books")
+//	public Book getBooks() {
+//
+//		Book book = new Book();
+//		book.setId(1);
+//		book.setTitle("Spring FrameWork With Java");
+//		book.setAuthor("B.Mohamed Ibrahim");
+//		return book;
+//
+//	}
 
 	// Get All Books From List
-	@GetMapping("/bookss")
+	@GetMapping("/books")
 	public List<Book> getBooks2() 
 	{
 

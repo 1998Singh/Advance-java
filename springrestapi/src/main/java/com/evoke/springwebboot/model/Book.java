@@ -1,20 +1,40 @@
 package com.evoke.springwebboot.model;
 
-// Rest API is set of Constraints that is used for creating web service.
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
+// Rest API is set of Constraints that is used for creating web service.
+@Entity
+@Table(name = "books")
 public class Book {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	@Column(name = "book_id")
 	private int id;
-	private String title;
-	private String author;
 
-	public Book()        // default Constructor
+	@Column(name = "book_title")
+	private String title;
+
+	@OneToOne(cascade = CascadeType.ALL)
+	@JsonManagedReference   // Annotation indicate that annotated property is part of two way linkage between field .
+	private Author author;
+
+	public Book() // default Constructor
 	{
 		super();
 
 	}
 
-	public Book(int id, String title, String author)    // parameterized  constructor
+	public Book(int id, String title, Author author) // parameterized constructor
 	{
 		super();
 		this.id = id;
@@ -38,11 +58,11 @@ public class Book {
 		this.title = title;
 	}
 
-	public String getAuthor() {
+	public Author getAuthor() {
 		return author;
 	}
 
-	public void setAuthor(String author) {
+	public void setAuthor(Author author) {
 		this.author = author;
 	}
 

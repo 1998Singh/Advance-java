@@ -1,10 +1,30 @@
 package com.evoke.httpstatus.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Studentsinfo")
 public class Students {
 
-	private int rollNo;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	//@Column(name = "roll_No")
+    private int rollNo;
+	@Column
 	private String name;
+	@Column
 	private String stream;
+	
+
+	public Students() {
+		super();
+		
+	}
 
 	public Students(int rollNo, String name, String stream) {
 		super();
