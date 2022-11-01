@@ -1,0 +1,6 @@
+26/Oct/2022 20:59:40,746- EmployeeController: This is info massage
+26/Oct/2022 20:59:40,751- EmployeeServiceImpl: This is Info Massage
+26/Oct/2022 20:59:40,886- LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+26/Oct/2022 21:00:37,140- SpringBootTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.evoke.springboottesting.integration.EmployeeControllerITests], using SpringBootContextLoader
+26/Oct/2022 21:00:37,151- AbstractContextLoader: Could not detect default resource locations for test class [com.evoke.springboottesting.integration.EmployeeControllerITests]: no resource found for suffixes {-context.xml, Context.groovy}.
+26/Oct/2022 21:00:37,153- AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [com.evoke.springboottesting.integration.EmployeeControllerITests]: EmployeeControllerITests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.

@@ -1,0 +1,9 @@
+19/Oct/2022 17:16:44,836- EmployeeServiceTests: Starting EmployeeServiceTests using Java 17.0.3 on SSINGH2-L-2651 with PID 11568 (started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\spring-boot-testing)
+19/Oct/2022 17:16:44,850- EmployeeServiceTests: No active profile set, falling back to 1 default profile: "default"
+19/Oct/2022 17:16:45,555- RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+19/Oct/2022 17:16:45,638- RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+19/Oct/2022 17:16:46,494- LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+19/Oct/2022 17:16:46,588- Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+19/Oct/2022 17:16:46,798- Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+19/Oct/2022 17:16:46,965- Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+19/Oct/2022 17:16:47,608- JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]

@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\ssingh\Downloads\New folder\Testings"/>
+			<item value="C:\Users\ssingh\Downloads\New folder\JunitTestControllers"/>
+			<item value="C:\Users\ssingh\Downloads\New folder\JunitSample"/>
 			<item value="C:\Users\ssingh\Downloads\springdemo"/>
 			<item value="C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE"/>
 		</list>
@@ -83,5 +86,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="838"/>
+		<item key="x" value="720"/>
+		<item key="y" value="0"/>
 	</section>
 </section>

@@ -1,0 +1,8 @@
+25/Oct/2022 19:54:11,895- Version: HHH000412: Hibernate ORM core version 5.6.11.Final
+25/Oct/2022 19:54:12,149- Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+25/Oct/2022 19:54:12,698- Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+25/Oct/2022 19:54:13,579- JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+25/Oct/2022 19:54:13,592- LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+25/Oct/2022 19:54:14,031- JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+25/Oct/2022 19:54:14,425- TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+25/Oct/2022 19:54:14,437- SpringBootTestingApplication: Started SpringBootTestingApplication in 4.959 seconds (JVM running for 6.288)

@@ -1,0 +1,7 @@
+19/Oct/2022 17:18:24,251- LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19/Oct/2022 17:18:24,945- JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19/Oct/2022 17:18:25,650- EmployeeServiceTests: Started EmployeeServiceTests in 4.195 seconds (JVM running for 5.657)
+19/Oct/2022 17:18:26,067- EmployeeServiceImpl: This is Info Massage
+19/Oct/2022 17:18:26,075- EmployeeServiceImpl: This is for error info
+19/Oct/2022 17:18:26,093- LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+19/Oct/2022 17:18:26,094- SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'

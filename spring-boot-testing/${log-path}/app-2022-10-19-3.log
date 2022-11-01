@@ -1,0 +1,8 @@
+19/Oct/2022 17:16:47,616- LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+19/Oct/2022 17:16:48,343- JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+19/Oct/2022 17:16:49,087- EmployeeServiceTests: Started EmployeeServiceTests in 4.499 seconds (JVM running for 5.986)
+19/Oct/2022 17:16:49,497- EmployeeServiceImpl: This is Info Massage
+19/Oct/2022 17:16:49,506- EmployeeServiceImpl: This is for error info
+19/Oct/2022 17:16:49,525- LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+19/Oct/2022 17:16:49,525- SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+19/Oct/2022 17:18:21,149- SpringBootTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.evoke.springboottesting.service.EmployeeServiceTests], using SpringBootContextLoader

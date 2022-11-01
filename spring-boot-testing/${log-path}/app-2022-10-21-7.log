@@ -1,0 +1,7 @@
+21/Oct/2022 20:35:54,704- EmployeeControllerTests: Starting EmployeeControllerTests using Java 17.0.3 on SSINGH2-L-2651 with PID 9392 (started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\spring-boot-testing)
+21/Oct/2022 20:35:54,714- EmployeeControllerTests: No active profile set, falling back to 1 default profile: "default"
+21/Oct/2022 20:35:56,372- SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+21/Oct/2022 20:35:56,373- TestDispatcherServlet: Initializing Servlet ''
+21/Oct/2022 20:35:56,375- TestDispatcherServlet: Completed initialization in 2 ms
+21/Oct/2022 20:35:56,414- EmployeeControllerTests: Started EmployeeControllerTests in 2.046 seconds (JVM running for 3.508)
+21/Oct/2022 20:35:56,579- EmployeeController: This is info massage

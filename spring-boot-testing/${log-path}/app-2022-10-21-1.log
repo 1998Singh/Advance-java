@@ -1,0 +1,8 @@
+21/Oct/2022 20:33:46,978- EmployeeControllerTests: Starting EmployeeControllerTests using Java 17.0.3 on SSINGH2-L-2651 with PID 1828 (started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\spring-boot-testing)
+21/Oct/2022 20:33:46,987- EmployeeControllerTests: No active profile set, falling back to 1 default profile: "default"
+21/Oct/2022 20:33:48,738- SpringBootMockServletContext: Initializing Spring TestDispatcherServlet ''
+21/Oct/2022 20:33:48,739- TestDispatcherServlet: Initializing Servlet ''
+21/Oct/2022 20:33:48,741- TestDispatcherServlet: Completed initialization in 2 ms
+21/Oct/2022 20:33:48,782- EmployeeControllerTests: Started EmployeeControllerTests in 2.155 seconds (JVM running for 3.838)
+21/Oct/2022 20:33:48,961- EmployeeController: This is info massage
+21/Oct/2022 20:34:01,641- WebMvcTestContextBootstrapper: Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.evoke.springboottesting.controller.EmployeeControllerTests], using SpringBootContextLoader

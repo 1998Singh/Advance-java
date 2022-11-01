@@ -1,0 +1,8 @@
+26/Oct/2022 20:59:35,308- EmployeeControllerITests: Starting EmployeeControllerITests using Java 17.0.3 on SSINGH2-L-2651 with PID 8992 (started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\spring-boot-testing)
+26/Oct/2022 20:59:35,321- EmployeeControllerITests: No active profile set, falling back to 1 default profile: "default"
+26/Oct/2022 20:59:36,059- RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26/Oct/2022 20:59:36,132- RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interfaces.
+26/Oct/2022 20:59:36,951- TomcatWebServer: Tomcat initialized with port(s): 0 (http)
+26/Oct/2022 20:59:37,097- ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1753 ms
+26/Oct/2022 20:59:37,406- LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+26/Oct/2022 20:59:37,495- Version: HHH000412: Hibernate ORM core version 5.6.11.Final
