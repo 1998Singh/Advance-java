@@ -2121,3 +2121,35 @@ Caused by: org.postgresql.util.PSQLException: This connection has been closed.
 [2022-11-29T16:58:26,985 INFO ] com.evoke.flipkart.FlipkartApplication - Started FlipkartApplication in 4.384 seconds (JVM running for 5.527) 
 [2022-11-29T19:15:25,354 INFO ] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
 [2022-11-29T19:15:25,446 INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[2023-01-09T15:51:29,501 INFO ] com.evoke.flipkart.FlipkartApplication - Starting FlipkartApplication using Java 17.0.3 on SSINGH2-L-2651 with PID 14144 (C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart\target\classes started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart) 
+[2023-01-09T15:51:29,522 INFO ] com.evoke.flipkart.FlipkartApplication - No active profile set, falling back to 1 default profile: "default" 
+[2023-01-09T15:51:30,139 INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[2023-01-09T15:51:30,206 INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces. 
+[2023-01-09T15:51:30,710 INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+[2023-01-09T15:51:30,832 INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms 
+[2023-01-09T15:51:30,996 INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[2023-01-09T15:51:31,105 INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final 
+[2023-01-09T15:51:31,307 INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[2023-01-09T15:51:31,643 INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+[2023-01-09T15:51:32,387 INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[2023-01-09T15:51:32,396 INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[2023-01-09T15:51:32,750 WARN ] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[2023-01-09T15:51:33,080 INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/flipkart' 
+[2023-01-09T15:51:33,089 INFO ] com.evoke.flipkart.FlipkartApplication - Started FlipkartApplication in 3.923 seconds (JVM running for 4.93) 
+[2023-01-09T16:02:33,328 INFO ] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested. 
+[2023-01-09T16:02:33,354 INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+[2023-01-09T16:02:35,334 INFO ] com.evoke.flipkart.FlipkartApplication - Starting FlipkartApplication using Java 17.0.3 on SSINGH2-L-2651 with PID 13748 (C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart\target\classes started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart) 
+[2023-01-09T16:02:35,348 INFO ] com.evoke.flipkart.FlipkartApplication - No active profile set, falling back to 1 default profile: "default" 
+[2023-01-09T16:02:35,913 INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+[2023-01-09T16:02:35,985 INFO ] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces. 
+[2023-01-09T16:02:36,469 INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http) 
+[2023-01-09T16:02:36,585 INFO ] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1192 ms 
+[2023-01-09T16:02:36,753 INFO ] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+[2023-01-09T16:02:36,811 INFO ] org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final 
+[2023-01-09T16:02:36,953 INFO ] org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+[2023-01-09T16:02:37,230 INFO ] org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+[2023-01-09T16:02:37,868 INFO ] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+[2023-01-09T16:02:37,877 INFO ] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[2023-01-09T16:02:38,232 WARN ] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+[2023-01-09T16:02:38,577 INFO ] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/flipkart' 
+[2023-01-09T16:02:38,587 INFO ] com.evoke.flipkart.FlipkartApplication - Started FlipkartApplication in 3.581 seconds (JVM running for 4.497) 

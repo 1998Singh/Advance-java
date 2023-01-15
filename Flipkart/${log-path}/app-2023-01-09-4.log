@@ -1,0 +1,8 @@
+09/Jan/2023 16:02:36,753- LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+09/Jan/2023 16:02:36,811- Version: HHH000412: Hibernate ORM core version 5.6.12.Final
+09/Jan/2023 16:02:36,953- Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+09/Jan/2023 16:02:37,230- Dialect: HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+09/Jan/2023 16:02:37,868- JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+09/Jan/2023 16:02:37,877- LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+09/Jan/2023 16:02:38,232- JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09/Jan/2023 16:02:38,577- TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path '/flipkart'

@@ -1,0 +1,7 @@
+09/Jan/2023 16:02:33,354- LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+09/Jan/2023 16:02:35,334- FlipkartApplication: Starting FlipkartApplication using Java 17.0.3 on SSINGH2-L-2651 with PID 13748 (C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart\target\classes started by ssingh2 in C:\Users\ssingh\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Flipkart)
+09/Jan/2023 16:02:35,348- FlipkartApplication: No active profile set, falling back to 1 default profile: "default"
+09/Jan/2023 16:02:35,913- RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09/Jan/2023 16:02:35,985- RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+09/Jan/2023 16:02:36,469- TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+09/Jan/2023 16:02:36,585- ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1192 ms

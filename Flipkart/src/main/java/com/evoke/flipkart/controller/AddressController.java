@@ -25,7 +25,7 @@ public class AddressController {
 
 	@Autowired
 	private AddessService addressService;
-
+	//sample
 	@PostMapping("/address")
 	public ResponseEntity<AddressDto> create(@RequestBody AddressDto addressDto) {
 		log.info("Address saved successfully{}", addressDto);
